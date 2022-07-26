@@ -46,7 +46,6 @@ def list_manipulation(lst, command, location, value=None):
         return None
     if command == 'add':
         if location == 'beginning':
-            # print(lst.insert(0,value))
             lst.insert(0,value)
             return lst
         else:

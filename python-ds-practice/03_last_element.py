@@ -8,7 +8,7 @@ def last_element(lst):
         True
     """
 
-    if len(lst) == 0:
+    if not lst:
         return None
     
     else:

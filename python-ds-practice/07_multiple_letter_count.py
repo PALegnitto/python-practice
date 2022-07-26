@@ -9,3 +9,5 @@ def multiple_letter_count(phrase):
     """
 
     return {ltr: phrase.count(ltr) for ltr in phrase}
+
+    """ this would be better as a frequency counter, the method above is O(n^2) """
